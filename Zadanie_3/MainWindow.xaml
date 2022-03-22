@@ -27,10 +27,10 @@
           Rail fence
         </RadioButton>
         <RadioButton>
-          Przestawienie macierzowe z kluczem liczbowym
+          Przestawienia macierzowe z kluczem liczbowym
         </RadioButton>
         <RadioButton>
-          Przestawienie macierzowe z kluczem słownym
+          Przestawienia macierzowe z kluczem słownym
         </RadioButton>
       </StackPanel>
     </GroupBox>

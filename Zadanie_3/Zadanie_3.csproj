@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ContinuousArray.cs" />
+    <Compile Include="MatrixTranspositionNumbers.cs" />
+    <Compile Include="MatrixTranspositionWord.cs" />
+    <Compile Include="RailFence.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

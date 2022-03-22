@@ -14,6 +14,12 @@ namespace Zadanie_3
         public MainWindow()
         {
             InitializeComponent();
+            Ciphers = new Cipher[]
+            {
+                new RailFence(),
+                new MatrixTranspositionNumbers(),
+                new MatrixTranspositionWord()
+            };
         }
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
@@ -21,9 +27,9 @@ namespace Zadanie_3
             MessageBox.Show(
                 "1. Rail fence\n" +
                 "wysokość płotu, np. 3\n\n" +
-                "2. Przestawienie macierzowe z kluczem liczbowym\n" +
+                "2. Przestawienia macierzowe z kluczem liczbowym\n" +
                 "kolejność przepisywania znaków z kolumn macierzy do szyfrogramu, np. 3-1-4-2\n\n" +
-                "3. Przestawienie macierzowe z kluczem słownym\n" +
+                "3. Przestawienia macierzowe z kluczem słownym\n" +
                 "słowo, na podstawie którego ustalana jest kolejność przepisywania kolumn do szyfrogramu, np. CONVENIENCE");
         }
 
